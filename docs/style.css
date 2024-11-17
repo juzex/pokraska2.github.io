@@ -57,7 +57,7 @@ a {
 #main-photo {
     width: 95vw;
     height: 83vmin;
-    background-image: url(../paintavto/photo/mainphoto.jpg);
+    background-image: url(photo/mainphoto.jpg);
     background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
