@@ -1,1 +1,217 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" content="height=device-height" initial-scale=1.0>
+    <title>Покраска авто Минск</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <div id="header-setting-container">
+                <span id="logo">Pokraska.by</span>
+                <span class="set"><a href="#onas">О нас</a></span>
+                <span class="set"><a href="#servic">Услуги</a></span>
+                <span class="set"><a href="#cont">Контакты</a></span>
+                <div id="but-more"><button type="button" id="more"><img src="photo/more.png"></button></div>
+            </div>
+        </div>
+    </header>
+    <div id="main-photo">
+        <span>
+            <h1>Pokraska.by</h1>
+            <h3>Лучшее место для покраски вашего автомобиля</h3>
+            <div>
+                <a href="#">Записаться на покраску автомобиля</a>
+            </div>
+        </span>
+    </div>
+    <div id="main-container">
+        <h2><a name="onas"></a>Наши преимущества</h2>
+        <div id="advantages">
+            <span class="top">
+                <div>
+                    <img src="photo/set1.jpg">
+                    <h4>Гарантия качества</h4>
+                    <p>Высокое качество нашей работы подтверждается фирменной гарантией.</p>
+                </div>
+            </span>
+            <span class="under">
+                <div>
+                    <h4>Опытный персонал</h4>
+                    <p>У нас работают квалифицированные мастера с большим опытом.</p>
+                    <img src="photo/set2.jpg">
+                </div>
+            </span>
+            <span class="top">
+                <div>
+                    <img src="photo/set3.jpg">
+                    <h4>Работаем оперативно</h4>
+                    <p>Не допускаем задержек и выполняем работу в установленный срок.</p>
+                </div>
+            </span>
+            <span class="under">
+                <div>
+                    <h4>Современное оборудование</h4>
+                    <p>Наш автосервис оснащен самым передовым оборудованием.</p>
+                    <img src="photo/set4.jpg">
+                </div>
+            </span>
+        </div>
+        <h2><a name="servic"></a>Услуги</h2>
+        <div id="services">
+            <div class="container-services">
+                <h6>Покраска крыла</h6>
+                <div class="external">
+                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quibusdam, ipsa hic at libero quae.</span>
+                    <div class="interior">
+                        <p>Цена: 9999 BYN</p>
+                        <button type="button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-services">
+                <h6>Покраска крыла</h6>
+                <div class="external">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et alias illo earum ut iste unde.</span>
+                    <div class="interior">
+                        <p>Цена: 9999 BYN</p>
+                        <button type="button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-services">
+                <h6>Покраска крыла</h6>
+                <div class="external">
+                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet minus libero esse perferendis.</span>
+                    <div class="interior">
+                        <p>Цена: 9999 BYN</p>
+                        <button type="button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-services">
+                <h6>Покраска крыла</h6>
+                <div class="external">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam rem accusantium provident?</span>
+                    <div class="interior">
+                        <p>Цена: 9999 BYN</p>
+                        <button type="button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-services">
+                <h6>Покраска крыла</h6>
+                <div class="external">
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima mollitia est laboriosam ullam!</span>
+                    <div class="interior">
+                        <p>Цена: 9999 BYN</p>
+                        <button type="button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-services">
+                <h6>Покраска крыла</h6>
+                <div class="external">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur sequi aperiam ratione</span>
+                    <div class="interior">
+                        <p>Цена: 9999 BYN</p>
+                        <button type="button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zapros">
+            <span class="anketa">
+                <h5>Оставить заявку</h5>
+                <div class="container-anketa">
+                    <input type="text" placeholder="Ваше имя*" name="">
+                    <input type="tel" placeholder="Номер телефона*" name="">
+                    <textarea name="" rows="3" placeholder="Тема заявки*"></textarea>
+                    <button type="submit">Отправить заявку</button>
+                </div>
+            </span>
+        </div>
+        <h2><a name="cont"></a>Контакты</h2>
+        <div id="contacts">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7908.04919198894!2d27.557595294533236!3d53.89483371163342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc360da48c9%3A0x903c79016f027b8!2z0J3QsNGG0YvRj9C90LDQu9GM0L3RiyDQkNC70ZbQvNC_0ZbQudGB0LrRliDRgdGC0LDQtNGL0ZHQvSDQlNGL0L3QsNC80LA!5e0!3m2!1sru!2sby!4v1731165059250!5m2!1sru!2sby" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="conatiner-main-contacts">
+                <div id="main-contacts">
+                    <h6 >Как с нами связаться?</h6>
+                    <div id="mini-container-main-contacts">
+                        <div class="cont">
+                            <div><img src="photo/a1.png"><a href="tel:375291111111">+375291111111</a></div>
+                            <div><img src="photo/life.jpg"><a href="tel:375291111111">+375291111111</a></div>
+                            <div><img src="photo/mts.png"><a href="tel:375291111111">+375291111111</a></div>
+                        </div>
+                        <div class="cont">
+                            <div><a href="https://www.instagram.com" target="blank"><img src="photo/inst.png">@pokraska_inst</a></div>
+                            <div><a href="https://www.vk.com" target="blank"><img src="photo/vk.png">@pokraska_vk</a></div>
+                            <div><a href="https://www.telegram.com" target="blank"><img src="photo/tg.png">@pokraska_tg</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-grafic">
+                    <h6>График работы</h6>
+                    <div id="container-grafic">
+                        <div>
+                            <h6>пн-чт</h6>
+                            <p>10:00-19:00</p>
+                        </div>
+                        <div>
+                            <h6>пт-сб</h6>
+                            <p>12:00-17:00</p>
+                        </div>
+                        <div>
+                            <h6>вс</h6>
+                            <p>выходной</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="container-adres">
+                    <div id="mini-container-adres">
+                        <h6>Адрес:</h6>
+                        <p>г.Минск, ул.Кирова, д.8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <div id="container-footer">
+                <div class="zapros">
+                    <span class="anketa">
+                        <h5>Оставить заявку</h5>
+                        <div class="container-anketa">
+                            <input type="text" placeholder="Ваше имя*" name="">
+                            <input type="tel" placeholder="Номер телефона*" name="">
+                            <textarea name="" rows="3" placeholder="Тема заявки*"></textarea>
+                            <button type="submit">Отправить заявку</button>
+                        </div>
+                    </span>
+                </div>
+                <div id="container-under-footer">
+                    <span>
+                        <h5>Контакты</h5>
+                        <p>УНП: 11111111</p>
+                        <p>ООО "PokraskaAvto"</p>
+                        <p><a href="">г.Минск, ул.Победителей 100</a></p>
+                        <p><a href="tel:+375111111111">+375(xx)xx-xx-xxx</a></p>
+                    </span>
+                    <span>
+                        <h5>Навигация</h5>
+                        <p><a href="#onas">О нас</a></p>
+                        <p><a href="#servic">Услуги</a></p>
+                        <p><a href="#cont">Контакты</a></p>
+                    </span>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
+
 
